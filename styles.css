@@ -6,13 +6,13 @@
 }
 
 :root {
-    --asphalt: #1a1a1a;
-    --concrete: #2d2d2d;
-    --clay: #8b4513;
-    --safety-orange: #ff6700;
-    --warning-yellow: #ffcc00;
-    --grass-stain: #4a5d23;
-    --net-white: #f8f8f8;
+    --asphalt: #000000;
+    --concrete: #1a1a1a;
+    --clay: #0d4f0d;
+    --safety-orange: #00ff00;
+    --warning-yellow: #90ee90;
+    --grass-stain: #228b22;
+    --net-white: #ffffff;
     --shadow-brutal: 8px 8px 0px #000000;
     --shadow-brutal-inset: inset 4px 4px 0px rgba(0,0,0,0.3);
 }
@@ -39,15 +39,15 @@ body::before {
             0deg,
             transparent,
             transparent 20px,
-            rgba(255, 103, 0, 0.03) 20px,
-            rgba(255, 103, 0, 0.03) 21px
+            rgba(0, 255, 0, 0.03) 20px,
+            rgba(0, 255, 0, 0.03) 21px
         ),
         repeating-linear-gradient(
             90deg,
             transparent,
             transparent 20px,
-            rgba(139, 69, 19, 0.03) 20px,
-            rgba(139, 69, 19, 0.03) 21px
+            rgba(34, 139, 34, 0.03) 20px,
+            rgba(34, 139, 34, 0.03) 21px
         );
     pointer-events: none;
     z-index: 1;
@@ -176,9 +176,9 @@ nav a:hover {
     width: 100%;
     height: 100%;
     background: 
-        radial-gradient(circle at 30% 70%, rgba(26, 26, 26, 0.7) 0%, transparent 50%),
-        radial-gradient(circle at 70% 30%, rgba(255, 103, 0, 0.4) 0%, transparent 50%),
-        linear-gradient(135deg, rgba(26, 26, 26, 0.6), rgba(26, 26, 26, 0.8));
+        radial-gradient(circle at 30% 70%, rgba(0, 0, 0, 0.7) 0%, transparent 50%),
+        radial-gradient(circle at 70% 30%, rgba(0, 255, 0, 0.4) 0%, transparent 50%),
+        linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
     z-index: 2;
 }
 
